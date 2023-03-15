@@ -1,0 +1,72 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+.heading {
+  font-size: 40px;
+  font-weight: 650;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.error {
+  display: block;
+  color: red;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+/* .logo {
+  background-color: rgb(44, 39, 39);
+  height: 70px;
+  width: 90px;
+  margin-top: 92px;
+
+ 
+} */
+.login{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    background: blue;
+}
+.login:hover{
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 0px #03e9f4, 0 0 0px #03e9f4, 0 0 13px #03e9f4
+}
+.head{
+    position: relative;
+    padding: 10px 20px;
+    color: rgb(49, 49, 202);
+    font-size: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    
+}
+.input1:hover,.input2:hover{
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 0px #03e9f4, 0 0 0px #03e9f4, 0 0 13px #03e9f4
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
